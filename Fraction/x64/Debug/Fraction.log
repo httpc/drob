@@ -1,0 +1,3 @@
+﻿  main.cpp
+D:\ШАГ\Программирование\PV911-master\PV911-master\IntroductionToOOP\Fraction\main.cpp(143,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Fraction.vcxproj -> D:\ШАГ\Программирование\PV911-master\PV911-master\IntroductionToOOP\x64\Debug\Fraction.exe

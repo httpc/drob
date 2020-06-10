@@ -1,0 +1,5 @@
+﻿  main.cpp
+D:\ШАГ\Программирование\PV911-master\PV911-master\IntroductionToOOP\HomeWorkAlex\main.cpp(107,12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\ШАГ\Программирование\PV911-master\PV911-master\IntroductionToOOP\HomeWorkAlex\main.cpp(109,12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\ШАГ\Программирование\PV911-master\PV911-master\IntroductionToOOP\HomeWorkAlex\main.cpp(115,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  HomeWorkAlex.vcxproj -> D:\ШАГ\Программирование\PV911-master\PV911-master\IntroductionToOOP\x64\Debug\HomeWorkAlex.exe
