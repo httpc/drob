@@ -118,27 +118,26 @@ public:
 	}
 	void reduce()
 	{
-		while (true)
+		int ost=32,temp,camp;
+		temp = numerator;
+		camp = denominator;
+		while (ost > 0)
 		{
-			if ((denominator % numerator) == 0)
+			ost = camp % temp;
+			if (ost == 0)
 			{
-				int temp = numerator;
 				denominator /= temp;
 				numerator /= temp;
 			}
-			if (numerator == denominator)
-			{
-				numerator = 0;
-				denominator = 0;
-				integer++;
-			}
-			break;
+			camp = temp;
+			temp = ost;
 		}
+
 	}
 };
 
 //#define CONSTRUCTORS_CHECK
-
+//#define ASSIGMENT_CHECK
 void main()
 {
 #ifdef CONSTRUCTORS_CHECK
@@ -156,14 +155,18 @@ void main()
 	F.print();
 #endif // CONSTRUCTORS_CHECK
 
-	/*Fraction A(1, 2);
+#ifdef ASSIGMENT_CHECK
+	Fraction A(1, 2);
 	A.print();
 	Fraction B;
 	B.print();
 	cout << "\n-------------------------------------------\n";
 	B = A;
-	cout << "\n-------------------------------------------\n";*/
-	int a=0, b=3, c=6;
+	cout << "\n-------------------------------------------\n";
+#endif // ASSIGMENT_CHECK
+
+
+	int a=0, b=5, c=10;
 	Fraction A(a, b, c);
 	A.print();
 	A.reduce();
