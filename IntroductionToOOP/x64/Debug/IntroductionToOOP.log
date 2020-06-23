@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\admin\source\repos\IntroductionToOOP\IntroductionToOOP\main.cpp(131,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+C:\Users\admin\source\repos\IntroductionToOOP\IntroductionToOOP\main.cpp(135,6): warning C4101: 'a': unreferenced local variable
+  IntroductionToOOP.vcxproj -> C:\Users\admin\source\repos\IntroductionToOOP\x64\Debug\IntroductionToOOP.exe
